@@ -1,3 +1,8 @@
-#CSS GRID ALIGN TRACKS
+#CSS WORKING WITH CONTENT
 
-Small example of using tracks for conent alignment.
+Examples of adjusting container to content values in a CSS Grid layout.
+
+*Includes
+    * minmax() function
+    * min-content
+    * max-content

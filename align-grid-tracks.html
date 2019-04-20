@@ -1,6 +1,6 @@
-<html>
+<html lang="en">
 <head>
-    <title>CSS GRID ALIGN TRACKS</title>
+    <title>CSS WORKING WITH CONTENT</title>
     <style>
         * {
             margin: 0;
@@ -15,11 +15,8 @@
             padding: 15px;
             grid-gap: 15px;
 
-            grid-template-columns: 150px 150px 150px;
-            grid-template-rows: 150px 150px;
-
-            align-content: space-evenly;
-            justify-content: space-evenly;
+            grid-template-columns: minmax(150px, 300px) max-content min-content;
+            grid-template-rows: min-content 150px;
         }
 
         .item--1 {
@@ -46,8 +43,8 @@
 <body>
     <div class="wrapper">
         <div class="item--1"><p>Item--1</p></div>
-        <div class="item--2"><p>Item--2</p></div>
-        <div class="item--3"><p>Item--3</p></div>
+        <div class="item--2"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, ipsa? Unde dolorem maxime quae voluptate in ea natus molestias quod.</p></div>
+        <div class="item--3"><p>Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur.</p></div>
         <div class="item--4"><p>Item--4</p></div>
         <div class="item--5"><p>Item--5</p></div>
         <div class="item--6"><p>Item--6</p></div>
